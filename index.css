@@ -1,0 +1,43 @@
+
+.mesage {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: #F8FAFC;
+}
+.form-nom-email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+/*colonnes indinviduelles dans le formulaire*/
+input[type="submit"] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.intro{
+    display: flex;
+    flex-direction:row;
+    max-width: 1000px;
+    align-items:flex-start;
+    margin: auto;
+}
+.intro div{
+    padding-right: 80px;
+}
+.intro h1{
+    margin-bottom: 25px;
+}
+.intro p{
+    margin-bottom: 40px;
+}
+.tableau{
+    color: #00bfff;
+    padding: 20px;
+    justify-content: center;
+}
+
+
